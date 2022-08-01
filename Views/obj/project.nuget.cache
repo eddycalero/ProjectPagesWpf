@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c7SUcnpmvM/JWD6ePe1uXZPLVaoHe3CQ+Y+RDC0nZdlowTRhR3tlVOPSnlINlpPoQWnbQkALWzl8Rpu6iZFwRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eddy\\Desktop\\ProjectPagesWpf\\Views\\Views.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eddy\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
+    "C:\\Users\\Eddy\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
