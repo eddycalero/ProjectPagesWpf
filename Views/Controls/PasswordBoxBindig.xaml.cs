@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Views.Controls
 {
@@ -29,7 +17,7 @@ namespace Views.Controls
             DependencyProperty.Register("Password", typeof(string), typeof(PasswordBoxBindig),
                 new PropertyMetadata(string.Empty));
 
-        public string password
+        public string Password
         {
             get
             {
@@ -43,7 +31,7 @@ namespace Views.Controls
 
         private void passwordBoxPasswordChanged( object sander, RoutedEventArgs e)
         {
-            password = passwordBox.Password;
+            Password = passwordBox.Password;
         }
 
     } 

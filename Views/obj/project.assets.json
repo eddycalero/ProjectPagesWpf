@@ -25,32 +25,6 @@
         "build": {
           "build/MaterialDesignThemes.targets": {}
         }
-      },
-      "Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Models.dll": {}
-        }
-      },
-      "ViewModel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ViewModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ViewModel.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
       }
     }
   },
@@ -109,23 +83,11 @@
         "materialdesignthemes.nuspec",
         "tools/VisualStudioToolsManifest.xml"
       ]
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
-    },
-    "ViewModel/1.0.0": {
-      "type": "project",
-      "path": "../ViewModel/ViewModel.csproj",
-      "msbuildProject": "../ViewModel/ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "MaterialDesignThemes >= 4.5.0",
-      "Models >= 1.0.0",
-      "ViewModel >= 1.0.0"
+      "MaterialDesignThemes >= 4.5.0"
     ]
   },
   "packageFolders": {
@@ -154,14 +116,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "C:\\Users\\Eddy\\Desktop\\ProjectPagesWpf\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Eddy\\Desktop\\ProjectPagesWpf\\Models\\Models.csproj"
-            },
-            "C:\\Users\\Eddy\\Desktop\\ProjectPagesWpf\\ViewModel\\ViewModel.csproj": {
-              "projectPath": "C:\\Users\\Eddy\\Desktop\\ProjectPagesWpf\\ViewModel\\ViewModel.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
